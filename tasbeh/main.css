@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    background-color: seagreen;
+}
+body.Bdark {
+    background: #1f1f1f;
+}
+.box {
+    width: 300px;
+    height: 450px;
+    background: dodgerblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px #dcdcdc,
+                0 0 10px #dcdcdc;
+    padding: 20px;
+}
+.box.dark {
+    background: #1f1f1f;
+    transition: .3s ease all;
+}
+.box > h3.data {
+    display: inline-block;
+    font-size: 36px;
+    padding: 10px 35px;
+    background-color: #fff;
+    margin: 10px 0;
+    border-radius: 10px;
+    user-select:none;
+}
+.box > h2 {
+    font-size: 32px;
+    padding: 20px 10px;
+    background: linear-gradient(90deg, #5900ff, blue, fuchsia , #0804f7);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    height: 100px;
+}
+.box.dark > h2{
+    background: #ffffff;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.btnBox {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+button {
+    padding: 5px 35px;
+    font-size: 50px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: 600;
+    background: blueviolet;
+    color: #fff;
+    position: relative;
+    top: 30px;
+    outline:none;
+    user-select: none;
+}
+.btn{
+    font-size: 40px;
+}
+.box > h4 {
+    font-size: 30px;
+    background: linear-gradient(90deg, springgreen, red, darkblue , #0804f7);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.box.dark > h4 {
+    background: #ffffff;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.button {
+    background-color: #ffff;
+    color: #000;
+    font-size: 20px;
+    padding: 10px 15px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
